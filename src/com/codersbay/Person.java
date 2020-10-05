@@ -6,15 +6,16 @@ public class Person {
     public String firstname;
     public String lastname;
     public String birthdate;
-    public String address;
-    public String gender;
+    public Address address;
+    public Gender gender;
 
-    public Person(String firstname, String lastname, String birthdate, String address, String gender) {
+
+
+    public Person(String firstname, String lastname, String birthdate, Address address, Gender gender) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.birthdate = birthdate;
         this.address = address;
-        this.gender = gender;
     }
 
     public Person() {
